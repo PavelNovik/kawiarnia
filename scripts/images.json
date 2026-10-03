@@ -1,0 +1,14 @@
+{
+  "hero": { "src": "https://images.unsplash.com/photo-1739723745132-97df9db49db2", "author": "Tasha Kostyuk", "user": "tashakostyuk", "width": 2400 },
+  "about": { "src": "https://images.unsplash.com/photo-1788953375702-200c6943bd42", "author": "MChe Lee", "user": "mclee", "width": 1600 },
+  "menu-coffee": { "src": "https://images.unsplash.com/photo-1559001724-fbad036dbc9e", "author": "Phil Desforges", "user": "storybyphil", "width": 900 },
+  "menu-desserts": { "src": "https://images.unsplash.com/photo-1565788049436-bc97046eff42", "author": "Praewthida K", "user": "pkvoyage", "width": 900 },
+  "menu-snacks": { "src": "https://images.unsplash.com/photo-1639667852145-466e29aa49fd", "author": "Luis Covarrubias", "user": "eledeluis", "width": 900 },
+  "menu-seasonal": { "src": "https://images.unsplash.com/photo-1578314675249-a6910f80cc4e", "author": "Rachel McDermott", "user": "mrsrachelmcdermott", "width": 900 },
+  "g-interior": { "src": "https://images.unsplash.com/photo-1771554753130-9e63a3f63e4d", "author": "Tasha Kostyuk", "user": "tashakostyuk", "width": 1800 },
+  "g-espresso": { "src": "https://images.unsplash.com/photo-1558416165-5fb04b79b0e7", "author": "Kevin Butz", "user": "kevin_butz", "width": 1800 },
+  "g-pastry": { "src": "https://images.unsplash.com/photo-1705972018470-a89eda1c6ce4", "author": "Sitraka", "user": "srakotoarivelo7", "width": 1800 },
+  "g-terrace": { "src": "https://images.unsplash.com/photo-1665758564802-f611df512d8d", "author": "Lisette Harzing", "user": "liszha", "width": 1800 },
+  "g-flowers": { "src": "https://images.unsplash.com/photo-1504705707-2159776e0146", "author": "Janko Ferlič", "user": "itfeelslikefilm", "width": 1800 },
+  "g-bar": { "src": "https://images.unsplash.com/photo-1551887196-72e32bfc7bf3", "author": "Louis Hansel", "user": "louishansel", "width": 1800 }
+}

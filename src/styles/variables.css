@@ -1,0 +1,75 @@
+/* Светлая тема (по умолчанию) */
+:root {
+  color-scheme: light;
+  --c-bg: #faf6f0;
+  --c-bg-alt: #f2eae0;
+  --c-surface: #fffdf9;
+  --c-text: #2e2119;
+  --c-muted: #6e5d50;
+  --c-line: #e3d7c9;
+  --c-accent: #9c6638; /* кнопки: белый текст на нём ≥ 4.5:1 */
+  --c-accent-hover: #83532b;
+  --c-on-accent: #fff;
+  --c-accent-text: #8a5a30; /* надписи акцентом на светлом фоне */
+
+  /* Тёмные секции (меню, контакты) — одинаковые в обеих темах */
+  --c-dark: #2a1d16;
+  --c-dark-2: #21170f;
+  --c-dark-3: #1a120c;
+  --c-on-dark: #f5ede3;
+  --c-on-dark-muted: #c8b7a5;
+  --c-on-dark-line: rgba(245, 237, 227, 0.16);
+  --c-accent-light: #dcaa76;
+
+  --shadow: 0 18px 40px -22px rgba(60, 35, 15, 0.45);
+
+  --f-serif: 'DM Serif Display', Georgia, 'Times New Roman', serif;
+  --f-sans: 'Jost', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --container: 1200px;
+  --gutter: clamp(16px, 4vw, 40px);
+  --section-y: clamp(56px, 8vw, 104px);
+  --radius: 12px;
+  --header-h: 88px;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+/* Тёмная тема: по системной настройке, если пользователь не выбрал светлую явно… */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --c-bg: #1b130e;
+    --c-bg-alt: #231912;
+    --c-surface: #2a1e16;
+    --c-text: #f1e7dc;
+    --c-muted: #bfae9d;
+    --c-line: #3c2c21;
+    --c-accent: #b87d4b;
+    --c-accent-hover: #c98e5b;
+    --c-on-accent: #1b130e;
+    --c-accent-text: #dcaa76;
+    --c-dark: #140e0a;
+    --c-dark-2: #110b08;
+    --c-dark-3: #0d0906;
+    --shadow: 0 18px 40px -22px rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* …или по выбору в переключателе */
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --c-bg: #1b130e;
+  --c-bg-alt: #231912;
+  --c-surface: #2a1e16;
+  --c-text: #f1e7dc;
+  --c-muted: #bfae9d;
+  --c-line: #3c2c21;
+  --c-accent: #b87d4b;
+  --c-accent-hover: #c98e5b;
+  --c-on-accent: #1b130e;
+  --c-accent-text: #dcaa76;
+  --c-dark: #140e0a;
+  --c-dark-2: #110b08;
+  --c-dark-3: #0d0906;
+  --shadow: 0 18px 40px -22px rgba(0, 0, 0, 0.8);
+}
